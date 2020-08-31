@@ -1,7 +1,6 @@
 # vscode-configs
-My vscode shortcuts and other configs
 
-Install extensions
+## Install extensions
 ```bash
 code --install-extension bierner.markdown-preview-github-styles
 code --install-extension CoenraadS.bracket-pair-colorizer-2

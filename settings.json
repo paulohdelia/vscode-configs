@@ -1,13 +1,23 @@
 {
-    "terminal.integrated.shell.osx": "/bin/zsh",
-    "workbench.colorTheme": "Omni",
-    "workbench.iconTheme": "material-icon-theme",
-    "editor.fontFamily": "'Fira Code'",
-    "editor.fontLigatures": true,
-    "editor.formatOnSave": true,
-    "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "java.semanticHighlighting.enabled": true,
-    "java.configuration.checkProjectSettingsExclusions": false,
-    "explorer.compactFolders": false,
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "workbench.colorTheme": "Omni",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.fontFamily": "'Fira Code'",
+  "editor.fontLigatures": true,
+  "editor.suggestSelection": "first",
+  "editor.multiCursorModifier": "alt",
+  "editor.formatOnSave": true,
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "java.semanticHighlighting.enabled": true,
+  "java.configuration.checkProjectSettingsExclusions": false,
+  "explorer.compactFolders": false,
+  "emmet.includeLanguages": {
+    "nunjucks": "html"
+  },
+  "prettier.singleQuote": true,
+  "createReactTSXComponent.stylesFormat": "CSS",
+  "colorize.files_extensions": [".tsx"]
 }
